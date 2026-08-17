@@ -2,6 +2,7 @@
 #define PLACE_H
 
 #include <string>
+#include <iostream>
 
 class Place {
 protected:
@@ -9,11 +10,8 @@ protected:
 
 public:
     Place(std::string placeName);
-
     virtual ~Place();
-
     virtual void print() const = 0; 
-
     std::string getName();
 };
 

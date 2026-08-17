@@ -6,7 +6,7 @@
 
 class Region : public Place {
 private:
-    std::vector<Place*> palces; 
+    std::vector<Place*> places; 
 
 public:
     Region(std::string name);

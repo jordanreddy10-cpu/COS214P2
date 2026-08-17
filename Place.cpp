@@ -1,8 +1,7 @@
 #include "Place.h"
 
 Place::~Place()
-{
-}
+{}
 
 Place::Place(std::string s)
 {
